@@ -1,0 +1,16 @@
+<script>
+  var iOS = navigator.userAgent.match(/(iPhone|iPad)/g) ? true : false;
+  if(iOS) {
+    setTimeout(function() {
+      $('#projects').find('a').find('img').removeAttr('data-title');
+    }, 2000);
+  }
+</script>
+
+
+<script>
+  var iOS = navigator.userAgent.match(/(iPhone|iPad)/g) ? true : false;
+  if(iOS) {
+    $('#organizations').find('a').find('img').removeAttr('data-title');
+  }
+</script>
